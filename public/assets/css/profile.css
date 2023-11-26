@@ -1,0 +1,109 @@
+/* Body and general layout */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+/* Modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Adjust width as needed */
+  max-height: 80vh; /* Set maximum height relative to viewport height */
+  aspect-ratio: 1/1; /* Maintain a square shape */
+  overflow: auto; /* Enable scrolling if content exceeds height */
+}
+
+.modal-header {
+  padding: 10px 15px;
+  background-color: #81b228;
+  color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Form and inputs */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.radio-group {
+  margin-bottom: 5px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Footer styles */
+.footer {
+  background: linear-gradient(to top, #006400 0%, #81b228 100%);
+}
+
+.footer h4 {
+  color: #040b14;
+  font-weight: bold;
+}
+
+.footer p {
+  color: #040b14;
+}
+
+.footer a {
+  color: #040b14;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
