@@ -57,16 +57,16 @@
                             <input type="text" class="form-control form-control-lg bg-light fs-6" id="nama"
                                 name="nama" placeholder="Masukan Nama Lengkap" required />
                         </div>
-                        <div class="input-group mb-2">
+                        <div class="row input-group mb-2">
                             <label>Jenis Kelamin :</label>
-                            <div class="form-check form-check-inline">
-                                <input type="checkbox" class="form-check-input" id="gender_male" name="jenis_kelamin"
+                            <div class="form-check form-check-inline col-6">
+                                <input type="radio" class="form-check-input" id="gender_male" name="jenis_kelamin"
                                     value="Laki-laki" style="margin-left: 0;" />
                                 <label class="form-check-label" for="gender_male"
                                     style="margin-left:10px">Laki-laki</label>
                             </div>
-                            <div class="form-check form-check-inline">
-                                <input type="checkbox" class="form-check-input" id="gender_female" name="jenis_kelamin"
+                            <div class="form-check form-check-inline col-4">
+                                <input type="radio" class="form-check-input" id="gender_female" name="jenis_kelamin"
                                     value="Perempuan" />
                                 <label class="form-check-label" for="gender_female">Perempuan</label>
                             </div>
