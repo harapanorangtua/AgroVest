@@ -10,7 +10,7 @@
         <meta content="" name="keywords">
 
         <!-- Favicons -->
-        <link href="assets/img/Icon/AgroVest.png" rel="icon">
+        <link href="{{ asset('assets/img/Icon/AgroVest.png') }}" rel="icon">
 
         <!-- Google Fonts -->
         <link
@@ -54,7 +54,7 @@
             <div class="d-flex flex-column">
 
                 <div class="profile">
-                    <img src="assets/img/icon/Profil.png" alt="">
+                    <img src="{{ asset('assets/img/icon/Profil.png') }}" alt="">
                     @if (Session::get('username') == 'adminVest')
                         <div class="text-end mt-3">
                             <h1 class="text-light text-center fw-bold">
